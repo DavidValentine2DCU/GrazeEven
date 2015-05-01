@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/clearFieldOutline" android:title="@string/clear_field"/>
+    <item android:id="@+id/saveFieldOutline" android:title="@string/save_field"/>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="black" type="color">#000000</item>
+    <item name="white" type="color">#FFFFFFFF</item>
+    <item name="powder_blue" type="color">#B0E0E6</item>
+    <item name="light_steel_blue" type="color">#ADD8E6</item>
+    <item name="light_sky_blue" type="color">#87CEFA</item>
+    <item name="sky_blue" type="color">#87CEEB</item>
+    <item name="deep_sky_blue" type="color">#00BFFF</item>
+    <item name="royal_blue" type="color">#4169E1</item>
+    <item name="blue" type="color">#0000FF</item>
+    <item name="medium_blue" type="color">#0000CD</item>
+    <item name="pale_green" type="color">#98FB98</item>
+    <item name="spring_green" type="color">#00FF7F</item>
+    <item name="lawn_green" type="color">#7CFC00</item>
+    <item name="chartreuse" type="color">#7FFF00</item>
+    <item name="lime_green" type="color">#32CD32</item>
+    <item name="forest_green" type="color">#228B22</item>
+    <item name="burlywood" type="color">#CEB887</item>
+    <item name="peru" type="color">#CD853F</item>
+    <item name="tan" type="color">#D2691E</item>
+    <item name="firebrick" type="color">#B22222</item>
+    <item name="brown" type="color">#A52A2A</item>
+    <item name="orange" type="color">#FFA500</item>
+    <item name="dark_orange" type="color">#FF8C00</item>
+    <item name="tomato" type="color">#FF6347</item>
+    <item name="orange_red" type="color">#FF4500</item>
+    <item name="red" type="color">#FF0000</item>
+</resources>

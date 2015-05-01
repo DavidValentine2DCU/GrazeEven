@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Graze-Even Master</string>
+    <string name="title_activity_field">Map</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="clear_field">Clear Field Outline</string>
+    <string name="save_field">Save Field Outline</string>
+    <string name="set_field">View/Change Field Outline</string>
+    <string name="show_field">Show Current Field Outline</string>
+    <string name="show_heatmap">Show Current Field Heatmap</string>
+
+</resources>
