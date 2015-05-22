@@ -583,25 +583,6 @@ public class MasterActivity extends ActionBarActivity {
             }).start();
             Button showButton = (Button)findViewById(R.id.showHeatmap);
             showButton.setEnabled(true);
-        }       
-		else if (resultCode==500){
-            final Button showButton = (Button)findViewById(R.id.showHeatmap);
-            final Dialog dialog = new Dialog(this);
-            AlertDialog alertDialog = new AlertDialog.Builder(this).setMessage("Clear Field Outline and Heatmap Data?\r\nWARNING: This is permanent!")
-                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            deleteFile("InitDetails.txt");
-                            deleteFile("HeatmapBitmap.png");
-                            polygon = null;
-                            heatmap = null;
-                            writtenOut = true;
-                            showButton.setEnabled(false);
-                            dialog.setTitle("Deleted!");
-                            dialog.show();
-                        }
-                    }).create();
-            alertDialog.show();
         }
     }
     @Override

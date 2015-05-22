@@ -28,7 +28,7 @@ import java.util.List;
 import ie.dcu.graze_even_master.masterutils.MasterUtils;
 import ie.dcu.graze_even_master.masterutils.Polygon;
 
-public class FieldActivity extends ActionBarActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+public class FieldActivity extends FragmentActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     //Implementation of Google's LatLng class using BigDecimals rather than doubles for accuracy of operations
     private class BigDecimalLatLng{
